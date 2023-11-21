@@ -1,0 +1,133 @@
+.table {
+  padding: 5px;
+  width: 100%;
+  overflow-x: auto;
+}
+.table table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.4rem;
+}
+.table table thead tr th{
+  border-top: 3px solid var(--light-blue);
+  border-bottom: 3px solid var(--light-blue);
+}
+.table table th {
+  border: 1px solid   #eee;
+}
+.table table th, .table table td {
+  vertical-align: top;
+  text-align: left;
+  padding: 8px;
+}
+th .icons, td .icons {
+  font-size: 18px;
+  color: #bb1919;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.table table tr {
+  border-bottom: 1px solid #ccc;
+}
+.table table tr:nth-child(even) {
+  background-color: #eee;
+}
+.table .summary {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.card-div{
+  
+  display: flex;
+  justify-content: flex-end;
+}
+.card-sub {
+  border: 1px solid #d3cdcd;
+  border-radius: 3px;
+  padding: 1rem;
+  width: 400px;
+}
+.table .summary .card .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text {
+  color: var(--color-danger);
+}
+.table .summary .card button {
+  margin-top: 5px;
+}
+.count {
+  display: flex;
+  align-items: center;
+}
+.count button {
+  border: 1px solid var(--darkblue);
+}
+.count > * {
+  margin-right: 1rem;
+}
+table button{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-weight: 400;
+}
+table input{
+  width: 20px;
+  border: none;
+}
+.-btn{
+  border: 1px solid #ddd;
+}
+.card {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+}
+.btn-clear{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card p{
+  font-size: 18px;
+  font-weight: 500;
+}
+.card div h4{
+  font-weight: 400;
+}
+.card div p{
+  font-size: 14px;
+  font-weight: 200;
+}
+.pag{
+  padding: 3px;
+  margin: 3px;
+  border: 1px solid #ddd;
+}
+form div{
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+form div p{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 400;
+}
+.linkCumpon{
+  color: rgb(18, 6, 182);
+  font-weight: 600;
+}
+form .card:hover{
+  letter-spacing: 1px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);;
+}
+

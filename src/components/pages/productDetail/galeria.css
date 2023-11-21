@@ -1,0 +1,50 @@
+.thumb {
+  width: 100%;
+  /* border-top: 1px solid #ccc; */
+  padding-top: 1rem;
+  /* display: flex;
+    flex-direction: row;
+    justify-content: flex-start; */
+}
+.thumbs {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.alice-carousel__stage-item {
+  width: 65px;
+}
+.alice-carousel__stage-item .__active li {
+  width: 350px;
+}
+li img {
+  border-radius: 3px;
+  width: 100%;
+  height: 350px;
+}
+li div img {
+  border-radius: 3px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.btn-next,
+.btn-prev {
+  display: flex;
+  border-radius: 10px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+  cursor: pointer;
+  height: 60px;
+  margin-top: 1rem;
+}
+.btn-next {
+  margin-left: 5px;
+}
+.btn-prev {
+  margin-right: 5px;
+}
